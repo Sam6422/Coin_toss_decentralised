@@ -14,7 +14,7 @@ game_html = """
   <script src="https://cdn.jsdelivr.net/npm/orbit-db/dist/orbitdb.min.js"></script>
 </head>
 <body>
-  <h3>Join the Game</h3>
+  <h3 style="color: red;">Join the Game</h3>
   <input id="username" placeholder="Enter username">
   <button onclick="joinGame()">Join</button>
   <div id="gameUI" style="display:none;">
